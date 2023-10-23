@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your website description">
+    <meta name="keywords" content="your, keywords, here">
+    <title>Agora project</title>
+
+    <!-- Include CSS stylesheets and JavaScript files here -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+
+    
+    <div class="headbar">
+      
+        
+
+        <p style="font-weight: bold;">Space title</p>
+
+<div>
+    <button id="join" style="border-radius: 10px; background-color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); padding: 8px; margin-left: 10px;">Join call</button>
+
+    
+    <button id="leave" style="border-radius: 10px; background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); color: white; padding: 8px;">Leave quietly</button>
+</div>
+        
+
+        
+    </div>
+
+    </div>
+
+    <center><div  class="side">Speakers (3)</div>
+    <div class="hosts">
+    
+    </div>
+    <br>
+    <br>
+    <div  class="side">Audience(22)</div>
+     
+     <div class="audience">
+       
+        
+
+     </div>
+
+
+
+
+ 
+    <div class="footbar" style="position: fixed; bottom: 8px; left: 8px; right: 8px;">
+        <div>
+            <button style="border-radius: 10px; background-color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); padding: 8px;">Invite people</button>
+    
+            <button style="border-radius: 10px; background-color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); padding: 8px;">Raise Plam👋</button>
+        </div>
+
+
+        <button id="togglePopup" style="border-radius: 10px; background-color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); padding: 8px;">Chat</button>
+
+
+        <div id="message"></div>
+        <div class="popup-container" id="chatPopup">
+            <div class="chat-messages" id="chatMessages"></div>
+            <input type="text" id="messageInput" class="messageInput" placeholder="Message...">
+
+            <button id="sendMessage" class="sendMessage" >Send</button>
+        </div>
+        
+    </div>
+    
+  
+
+
+    
+    <!-- Your content goes here -->
+
+    <script>
+        // Your JavaScript code goes here
+    </script>
+    
+    <script src="./AgoraRTC_N-4.19.2.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
